@@ -3,6 +3,7 @@ An extension to make BAILII pretty again (and thus undo the UK Supreme Court’s
 ## Releases
 The official release can be downloaded from the [Chrome Webstore](https://chrome.google.com/webstore/detail/prettier-uksc/fmoeaeaikfmihnpkdabidknamagnkhcg) and all Chrome users are strongly recommended to install from there.  Users of other Chromium browsers wishing to install it can download the source in the Releases page.  If there is demand, versions may be in future submitted to other browsers’ extension/add-on stores.
 ## Sample
+![picture of judgment but pretty](sample.png "Sample")
 
 ## Licence
 This software is free and open-source software licensed under the MIT Licence.
