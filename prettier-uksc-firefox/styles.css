@@ -1,0 +1,81 @@
+body * {font-family: "Sabon", "Sabon LT Std", "Sabon Next", "Sabon eText", "Sabon LT", "Sabon Linotype", "Minion Pro", "Arno Pro", "Palatine Parliamentary", "FF Scala", "Adobe Caslon Pro", "Garamond Premier Pro",  "EB Garamond", "Adobe Garamond Pro", "Alegreya", "Crimson Pro", "Vollkorn", "Times New Roman", serif !important;
+
+
+}
+
+p * {  
+
+font-family: "Sabon", "Sabon LT Std", "Sabon Next", "Sabon eText", "Sabon LT", "Sabon Linotype", "Minion Pro", "Arno Pro", "Palatine Parliamentary", "FF Scala", "Adobe Caslon Pro", "Garamond Premier Pro",  "EB Garamond", "Adobe Garamond Pro", "Alegreya", "Crimson Pro", "Vollkorn", "Times New Roman", serif !important;
+text-align: justify !important;
+ font-variant-numeric: proportional-nums oldstyle-nums !important;
+   font-feature-settings:  "onum", "pnum", "liga", "dlig"!important;
+   font-variant-ligatures: normal common-ligatures  discretionary-ligatures !important;
+   .JudgmentReferences {
+   font-family: "Sabon", "Sabon LT Std", "Sabon Next", "Sabon eText", "Sabon LT", "Sabon Linotype", "Minion Pro", "Arno Pro", "Palatine Parliamentary", "FF Scala", "Adobe Caslon Pro", "Garamond Premier Pro",  "EB Garamond", "Adobe Garamond Pro", "Alegreya", "Crimson Pro", "Vollkorn", "Times New Roman", serif !important;
+text-align: right !important;
+ font-variant-numeric: proportional-nums oldstyle-nums !important;
+   font-feature-settings:  "onum", "pnum", "liga", "dlig"!important;
+   font-variant-ligatures: normal common-ligatures  discretionary-ligatures !important;
+   }}
+   
+   blockquote  {
+ padding-left: 3em !important;
+  padding-right: 3em !important;
+
+
+    display: block !important;
+    margin-block-start: 2em !important;
+    margin-block-end: 1em !important;
+    margin-inline-start: 40px !important;
+    margin-inline-end: 40px !important;
+}
+
+
+
+ ol.blockquote {
+ padding-left: 2em !important;
+  padding-right: 2em !important;
+
+    display: block !important;
+    margin-block-start: 2em !important;
+        margin-block-end: 1em !important;
+    margin-inline-start: 40px !important;
+    margin-inline-end: 40px !important;
+}
+ 
+ol *  {
+
+
+font-family: "Sabon", "Sabon LT Std", "Sabon Next", "Sabon eText", "Sabon LT", "Sabon Linotype", "Minion Pro", "Arno Pro", "Palatine Parliamentary", "FF Scala", "Adobe Caslon Pro", "Garamond Premier Pro",  "EB Garamond", "Adobe Garamond Pro", "Alegreya", "Crimson Pro", "Vollkorn", "Times New Roman", serif !important;
+text-align: justify !important;
+ font-variant-numeric: proportional-nums oldstyle-nums !important;
+   font-feature-settings:  "onum", "pnum", "liga", "dlig"!important;
+   font-variant-ligatures: normal common-ligatures  discretionary-ligatures !important;
+}
+
+li *  {
+
+
+
+font-family: "Sabon", "Sabon LT Std", "Sabon Next", "Sabon eText", "Sabon LT", "Sabon Linotype", "Minion Pro", "Arno Pro", "Palatine Parliamentary", "FF Scala", "Adobe Caslon Pro", "Garamond Premier Pro",  "EB Garamond", "Adobe Garamond Pro", "Alegreya", "Crimson Pro", "Vollkorn", "Times New Roman", serif !important;
+text-align: justify !important;
+ font-variant-numeric: proportional-nums oldstyle-nums !important;
+   font-feature-settings:  "onum", "pnum", "liga", "dlig"!important;
+   font-variant-ligatures: normal common-ligatures  discretionary-ligatures !important;
+}
+ol > li {
+  margin: 0em;
+  padding: 0 2em 0 2em;
+  text-indent: -2em;
+  list-style-type: none;
+  counter-increment: item;
+}
+
+ol > li:before {
+  display: inline-block;
+  width: 1em;
+  padding-right: 2em;
+  font-weight: bold;
+  text-align: right;
+  content: counter(item);
+}
