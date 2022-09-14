@@ -1,25 +1,143 @@
-body * {font-family: "Sabon", "Sabon LT Std", "Sabon Next", "Sabon eText", "Sabon LT", "Sabon Linotype", "Minion Pro", "Arno Pro", "Palatine Parliamentary", "FF Scala", "Adobe Caslon Pro", "Garamond Premier Pro",  "EB Garamond", "Adobe Garamond Pro", "Alegreya", "Crimson Pro", "Vollkorn", "Times New Roman", serif !important;
+html{
+    border-left: 50px hidden  !important;
+        border-right: 50px hidden  !important;
+
+    padding: 10px !important;
+}
+ol.paragraphs {
+    list-style-type: none;
+}
+ol>li>span.paragraph_number {
+    display: inline-block;
+    width: 2.25em;
+    text-align: right;
+}
+ol.paragraphs>li {
+    text-indent: -1em;
+}
+body > div > h3 * {
+    mso-style-link: "Heading 2 Char";
+    margin-top: 6.0pt;
+    margin-right: 0cm;
+    text-align: center !important;
+    margin-bottom: 12.0pt;
+    margin-left: 0cm;
+    font-size: 100% !important;
+font-family: "Sabon", "Sabon Next Com",   "Sabon LT Std", "Sabon Next", "Sabon eText", "Sabon LT", "Sabon Linotype", "Minion Pro", "Arno Pro", "Palatine Parliamentary", "FF Scala", "Adobe Caslon Pro", "Garamond Premier Pro",  "EB Garamond", "Adobe Garamond Pro", "Alegreya", "Crimson Pro", "Vollkorn", "Times New Roman", serif !important;
+}
+
+body > div > h2 * {
+    mso-style-link: "Heading 2 Char";
+    margin-top: 6.0pt;
+    margin-right: 0cm;
+    text-align: center !important;
+    margin-bottom: 12.0pt;
+    margin-left: 0cm;
+    font-size: 115% !important;
+font-family: "Sabon", "Sabon Next Com",   "Sabon LT Std", "Sabon Next", "Sabon eText", "Sabon LT", "Sabon Linotype", "Minion Pro", "Arno Pro", "Palatine Parliamentary", "FF Scala", "Adobe Caslon Pro", "Garamond Premier Pro",  "EB Garamond", "Adobe Garamond Pro", "Alegreya", "Crimson Pro", "Vollkorn", "Times New Roman", serif !important;
+}
+
+
+body ol {font-family: "Sabon", "Sabon Next Com",   "Sabon LT Std", "Sabon Next", "Sabon eText", "Sabon LT", "Sabon Linotype", "Minion Pro", "Arno Pro", "Palatine Parliamentary", "FF Scala", "Adobe Caslon Pro", "Garamond Premier Pro",  "EB Garamond", "Adobe Garamond Pro", "Alegreya", "Crimson Pro", "Vollkorn", "Times New Roman", serif !important;
+
+}
+
+p.CitationsCxSpFirst, li.CitationsCxSpFirst, div.CitationsCxSpFirst, 
+p.Citations, li.Citations, div.Citations,
+p.CitationsCxSpMiddle, li.CitationsCxSpMiddle, div.CitationsCxSpMiddle , 
+p.CitationsCxSpMiddle, li.CitationsCxSpMiddle, div.CitationsCxSpMiddle, p.CitationsCxSpLast, li.CitationsCxSpLast, div.CitationsCxSpLast * {
+font-family: "Sabon", "Sabon Next Com",   "Sabon LT Std", "Sabon Next", "Sabon eText", "Sabon LT", "Sabon Linotype", "Minion Pro", "Arno Pro", "Palatine Parliamentary", "FF Scala", "Adobe Caslon Pro", "Garamond Premier Pro",  "EB Garamond", "Adobe Garamond Pro", "Alegreya", "Crimson Pro", "Vollkorn", "Times New Roman", serif !important;
+
+    font-size: 100% !important;
+
+}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText,
+p.BodyTextnonum, li.BodyTextnonum, div.BodyTextnonum * {
+   font-variant-numeric: proportional-nums oldstyle-nums !important;
+   font-feature-settings:  "onum", "pnum", "liga"!important;
+   font-variant-ligatures: normal common-ligatures   !important;
+
+    mso-style-link: !important;
+    margin-top: !important;
+    margin-right: !important;
+    margin-bottom: !important;
+    margin-left: !important;
+    text-align: justify !important;
+    text-indent: -1.0cm;
+    font-size: 100% !important;
+font-family: "Sabon", "Sabon Next Com",   "Sabon LT Std", "Sabon Next", "Sabon eText", "Sabon LT", "Sabon Linotype", "Minion Pro", "Arno Pro", "Palatine Parliamentary", "FF Scala", "Adobe Caslon Pro", "Garamond Premier Pro",  "EB Garamond", "Adobe Garamond Pro", "Alegreya", "Crimson Pro", "Vollkorn", "Times New Roman", serif !important;
+}
+
+body > div > div * {
+font-family: "Sabon", "Sabon Next Com",   "Sabon LT Std", "Sabon Next", "Sabon eText", "Sabon LT", "Sabon Linotype", "Minion Pro", "Arno Pro", "Palatine Parliamentary", "FF Scala", "Adobe Caslon Pro", "Garamond Premier Pro",  "EB Garamond", "Adobe Garamond Pro", "Alegreya", "Crimson Pro", "Vollkorn", "Times New Roman", serif !important;
+ width: auto !important;
+top:  2em !important;
+left: auto !important;
+text-align: justify !important;
+
+font-size: initial !important;
+
+}
+
+
+p.JuInitialled, li.JuInitialled, div.JuInitialled * {font-size: 100% !important; text-align: right !important;}
+
+p.JuSigned, li.JuSigned, div.JuSigned * {font-size: 100% !important;
+text-align: right !important;}
+
+p.JuList, li.JuList, div.JuList * {font-size: 100% !important;}
+
+p.JuHA, li.JuHA, div.JuHA, p.JuH1, li.JuH1, div.JuH1 * {font-size: 105% !important;}
+
+a * {
+padding-right: 0em !important;
+padding-left: 0em !important;}
+
+body > div.WordSection2 * {font-family: "Sabon", "Sabon Next Com",   "Sabon LT Std", "Sabon Next", "Sabon eText", "Sabon LT", "Sabon Linotype", "Minion Pro", "Arno Pro", "Palatine Parliamentary", "FF Scala", "Adobe Caslon Pro", "Garamond Premier Pro",  "EB Garamond", "Adobe Garamond Pro", "Alegreya", "Crimson Pro", "Vollkorn", "Times New Roman", serif !important;
+ font-variant-numeric: proportional-nums oldstyle-nums !important;
+   font-feature-settings:  "onum", "pnum", "liga", important;
+   font-variant-ligatures: normal common-ligatures  !important;
+  font-size:  100% !important;
+}
+
+body > div.WordSection2 > p * { font-variant-numeric: proportional-nums oldstyle-nums !important;
+   font-feature-settings:  "onum", "pnum", "liga", important;
+   font-variant-ligatures: normal common-ligatures  !important;
+  font-size:  100% !important;
+}
+
+p.MsoNormal, li.MsoNormal, div.MsoNormal, p.normal2 * {
+font-family: "Sabon", "Sabon Next Com",   "Sabon LT Std", "Sabon Next", "Sabon eText", "Sabon LT", "Sabon Linotype", "Minion Pro", "Arno Pro", "Palatine Parliamentary", "FF Scala", "Adobe Caslon Pro", "Garamond Premier Pro",  "EB Garamond", "Adobe Garamond Pro", "Alegreya", "Crimson Pro", "Vollkorn", "Times New Roman", serif !important;
+ font-variant-numeric: proportional-nums oldstyle-nums !important;
+   font-feature-settings:  "onum", "pnum", "liga", important;
+   font-variant-ligatures: normal common-ligatures  !important;
+margin:  0% !important;
+  font-size:  100% !important;
+}
+p.MsoNormal > span { text-align:  justify !important;}
+
+p.JuJudges, li.JuJudges, div.JuJudges * {font-size: normal !important; }
+body > div.WordSection3 > p * {
+    font-size:  100% !important;
+    font-family: "Sabon", "Sabon Next Com",   "Sabon LT Std", "Sabon Next", "Sabon eText", "Sabon LT", "Sabon Linotype", "Minion Pro", "Arno Pro", "Palatine Parliamentary", "FF Scala", "Adobe Caslon Pro", "Garamond Premier Pro",  "EB Garamond", "Adobe Garamond Pro", "Alegreya", "Crimson Pro", "Vollkorn", "Times New Roman", serif !important;
 
 
 }
 
-p * {  
+p.JuCase, li.JuCase, div.JuCase  * {text-align: center !important; font-size: 100% !important}
 
-font-family: "Sabon", "Sabon LT Std", "Sabon Next", "Sabon eText", "Sabon LT", "Sabon Linotype", "Minion Pro", "Arno Pro", "Palatine Parliamentary", "FF Scala", "Adobe Caslon Pro", "Garamond Premier Pro",  "EB Garamond", "Adobe Garamond Pro", "Alegreya", "Crimson Pro", "Vollkorn", "Times New Roman", serif !important;
-text-align: justify !important;
- font-variant-numeric: proportional-nums oldstyle-nums !important;
-   font-feature-settings:  "onum", "pnum", "liga", "dlig"!important;
-   font-variant-ligatures: normal common-ligatures  discretionary-ligatures !important;
-   .JudgmentReferences {
-   font-family: "Sabon", "Sabon LT Std", "Sabon Next", "Sabon eText", "Sabon LT", "Sabon Linotype", "Minion Pro", "Arno Pro", "Palatine Parliamentary", "FF Scala", "Adobe Caslon Pro", "Garamond Premier Pro",  "EB Garamond", "Adobe Garamond Pro", "Alegreya", "Crimson Pro", "Vollkorn", "Times New Roman", serif !important;
-text-align: right !important;
- font-variant-numeric: proportional-nums oldstyle-nums !important;
-   font-feature-settings:  "onum", "pnum", "liga", "dlig"!important;
-   font-variant-ligatures: normal common-ligatures  discretionary-ligatures !important;
-   }}
-   
-   blockquote  {
- padding-left: 3em !important;
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText * {font-size:  83.3% !important;}
+
+p.OpiPara, li.OpiPara, div.OpiPara * {font-size:  100% !important;}
+
+p.JuQuot, li.JuQuot, div.JuQuot * {text-indent: 0em !important;}
+p.OpiHHead, li.OpiHHead, div.OpiHHead, p.OpiTranslation, li.OpiTranslation, div.OpiTranslation * {
+  text-align: center !important;
+font-size: 116% !important;}
+
+
+p.JuQuot, li.JuQuot, div.JuQuot * {font-size: 100% !important;
+   padding-left: 3em !important;
   padding-right: 3em !important;
 
 
@@ -31,6 +149,57 @@ text-align: right !important;
 }
 
 
+p.JuHIRoman, li.JuHIRoman, div.JuHIRoman * {font-size:  120% !important}
+
+p.JuPara, li.JuPara, div.JuPara, p.JuParaLast, li.JuParaLast, div.JuParaLast  * { font-size: 100% !important; }
+
+ p.JudgmentReferences * {
+   font-family: "Sabon", "Sabon Next Com",  "Sabon LT Std", "Sabon Next", "Sabon eText", "Sabon LT", "Sabon Linotype", "Minion Pro", "Arno Pro", "Palatine Parliamentary", "FF Scala", "Adobe Caslon Pro", "Garamond Premier Pro",  "EB Garamond", "Adobe Garamond Pro", "Alegreya", "Crimson Pro", "Vollkorn", "Times New Roman", serif !important;
+text-align: right !important;
+ font-variant-numeric: proportional-nums oldstyle-nums !important;
+   font-feature-settings:  "onum", "pnum", "liga", important;
+   font-variant-ligatures: normal common-ligatures  !important;
+   }
+
+blockquote.blockquote *{
+
+ padding-left: 1.5em !important;
+  padding-right: 1.5em !important;
+margin-left: 1em !important;
+
+    display: inline-block !important;
+    margin-block-start: 0em !important;
+    margin-block-end: 0em !important;
+    margin-inline-start: 0px !important;
+    margin-inline-end: 0px !important;
+
+}
+
+
+   blockquote{
+ padding-left: 3em !important;
+  padding-right: 3em !important;
+margin-left: 1em !important;
+
+    display: block !important;
+    margin-block-start: 2em !important;
+    margin-block-end: 1em !important;
+}
+p * {  
+margin: 0px !important;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    margin-left: 00px !important;
+font-family: "Sabon", "Sabon Next Com",  "Sabon LT Std", "Sabon Next", "Sabon eText", "Sabon LT", "Sabon Linotype", "Minion Pro", "Arno Pro", "Palatine Parliamentary", "FF Scala", "Adobe Caslon Pro", "Garamond Premier Pro",  "EB Garamond", "Adobe Garamond Pro", "Alegreya", "Crimson Pro", "Vollkorn",  serif !important;
+text-align: justify !important;
+ font-variant-numeric: proportional-nums oldstyle-nums !important;
+   font-feature-settings:  "onum", "pnum", "liga"!important;
+   font-variant-ligatures: normal common-ligatures   !important;
+margin:0% !important;
+
+
+}
 
  ol.blockquote {
  padding-left: 2em !important;
@@ -44,24 +213,55 @@ text-align: right !important;
 }
  
 ol *  {
+ 
 
+font-family: "Sabon", "Sabon Next Com",  "Sabon LT Std", "Sabon Next", "Sabon eText", "Sabon LT", "Sabon Linotype", "Minion Pro", "Arno Pro", "Palatine Parliamentary", "FF Scala", "Adobe Caslon Pro", "Garamond Premier Pro",  "EB Garamond", "Adobe Garamond Pro", "Ezra SIL",  serif !important;
 
-font-family: "Sabon", "Sabon LT Std", "Sabon Next", "Sabon eText", "Sabon LT", "Sabon Linotype", "Minion Pro", "Arno Pro", "Palatine Parliamentary", "FF Scala", "Adobe Caslon Pro", "Garamond Premier Pro",  "EB Garamond", "Adobe Garamond Pro", "Alegreya", "Crimson Pro", "Vollkorn", "Times New Roman", serif !important;
 text-align: justify !important;
  font-variant-numeric: proportional-nums oldstyle-nums !important;
-   font-feature-settings:  "onum", "pnum", "liga", "dlig"!important;
-   font-variant-ligatures: normal common-ligatures  discretionary-ligatures !important;
+   font-feature-settings:  "onum", "pnum", "liga"!important;
+   font-variant-ligatures: normal common-ligatures   !important;
+}
+
+
+
+font-family: "Sabon", "Sabon Next Com",  "Sabon LT Std", "Sabon Next", "Sabon eText", "Sabon LT", "Sabon Linotype", "Minion Pro", "Arno Pro", "Palatine Parliamentary", "FF Scala", "Adobe Caslon Pro", "Garamond Premier Pro",  "EB Garamond", "Adobe Garamond Pro", "Ezra SIL",  serif !important;
+text-align: justify !important;
+ font-variant-numeric: proportional-nums oldstyle-nums !important;
+   font-feature-settings:  "onum", "pnum", "liga"!important;
+   font-variant-ligatures: normal common-ligatures   !important;
+}
+
+
+p > table * {
+    font-family: Sabon, "Sabon LT Std", "Sabon Next", "Sabon eText", "Sabon LT", "Sabon Linotype", "Minion Pro", "Arno Pro", "Palatine Parliamentary", "FF Scala", "Adobe Caslon Pro", "Garamond Premier Pro", "EB Garamond", "Adobe Garamond Pro", Alegreya, "Crimson Pro", Vollkorn, serif !important;
+    font-variant-numeric: oldstyle-nums proportional-nums !important;
+    font-feature-settings: "onum", "pnum", "liga" !important;
+    margin: 0% !important;
+    align: inherit !important;
+}
+
+
+ol.li *  {
+
+
+  font-family: "Sabon", "Sabon Next Com",  "Sabon LT Std", "Sabon Next", "Sabon eText", "Sabon LT", "Sabon Linotype", "Minion Pro", "Arno Pro", "Palatine Parliamentary", "FF Scala", "Adobe Caslon Pro", "Garamond Premier Pro",  "EB Garamond", "Adobe Garamond Pro", "Ezra SIL",  serif !important;
+text-align: justify !important;
+ font-variant-numeric: proportional-nums oldstyle-nums !important;
+   font-feature-settings:  "onum", "pnum", "liga"!important;
+   font-variant-ligatures: normal common-ligatures   !important;
+
+text-indent: 2em !important;
+
 }
 
 li *  {
 
-
-
-font-family: "Sabon", "Sabon LT Std", "Sabon Next", "Sabon eText", "Sabon LT", "Sabon Linotype", "Minion Pro", "Arno Pro", "Palatine Parliamentary", "FF Scala", "Adobe Caslon Pro", "Garamond Premier Pro",  "EB Garamond", "Adobe Garamond Pro", "Alegreya", "Crimson Pro", "Vollkorn", "Times New Roman", serif !important;
+font-family: "Sabon", "Sabon Next Com",  "Sabon LT Std", "Sabon Next", "Sabon eText", "Sabon LT", "Sabon Linotype", "Minion Pro", "Arno Pro", "Palatine Parliamentary", "FF Scala", "Adobe Caslon Pro", "Garamond Premier Pro",  "EB Garamond", "Adobe Garamond Pro", "Ezra SIL",  serif !important;
 text-align: justify !important;
  font-variant-numeric: proportional-nums oldstyle-nums !important;
-   font-feature-settings:  "onum", "pnum", "liga", "dlig"!important;
-   font-variant-ligatures: normal common-ligatures  discretionary-ligatures !important;
+   font-feature-settings:  "onum", "pnum", "liga"!important;
+   font-variant-ligatures: normal common-ligatures   !important;
 }
 ol > li {
   margin: 0em;
@@ -77,5 +277,5 @@ ol > li:before {
   padding-right: 2em;
   font-weight: bold;
   text-align: right;
-  content: counter(item);
+  content: none;
 }
